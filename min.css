@@ -16,6 +16,14 @@ html, body {
   color: white;
 }
 
+.jumbotron h4,h5,h6 {
+  text-align: center;
+  padding: 5px 20px;
+  letter-spacing: 5px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
 .jumbotron h4 {
   font-weight: 100;
   letter-spacing: 2px;
