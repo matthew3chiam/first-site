@@ -24,11 +24,10 @@ html, body {
   text-transform: uppercase;
 }
 
-.jumbotron h4 {
+.jumbotron h1 {
   font-weight: 100;
   letter-spacing: 2px;
   text-transform: none;
-  font-size: 30px;
   text-align: center;
   border: 1px solid white;
 }
