@@ -6,7 +6,7 @@ html, body {
 .container {
   max-width: 940px;
   margin: 0 auto;
-  font-family: 'Segoe UI','Helvetica Neue','Raleway', sans-serif;
+  font-family:'Raleway', sans-serif;
 }
 
 .jumbotron {
