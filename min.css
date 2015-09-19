@@ -1,0 +1,132 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  font-family: 'Segoe UI','Helvetica Neue','Raleway', sans-serif;
+}
+
+.jumbotron {
+  background: url('blog.jpg');
+  background-size: cover;
+  height: 750px;
+  color: white;
+}
+
+.jumbotron h4,h5,h6 {
+  text-align: center;
+  padding: 5px 20px;
+  letter-spacing: 5px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.jumbotron h4 {
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: none;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.main {
+  background: url('work.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+#top {
+  margin-top: 120px;
+  color: #A4A4A4;
+}
+
+.btn:hover {
+  border-radius: 1px;
+  border: 1px solid white;
+	cursor: pointer;
+	transition: border 0.5s;
+  text-decoration: none;
+}
+
+
+.btn {
+  border-radius: 0px;
+}
+
+.navi {
+  float: right;
+}
+
+.navi li {
+  display: inline;
+  padding: 10px 20px;
+}
+
+.navi a {
+  color: white;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.navi-bot a {
+  color: black;
+  float: none;
+  text-decoration: none;
+}
+
+.navi-bot li {
+  border: 1px solid #5E5E5E;
+  border-radius: 1px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.navi-bot {
+  text-align: center;
+  padding: 0;
+  display: none;
+}
+
+.footer{
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  font-weight: 300;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+
+@media (max-width: 950px) {
+  #top {
+    margin-top: 400px;
+  }
+
+  .jumbotron {
+    height: 600px;
+  }
+
+  .jumbotron ul {
+    display: none;
+  }
+
+  .navi-bot {
+    text-align: center;
+    padding: 0;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .bar {
+    width: 100%;
+    background-color: #F4F4F4;
+    margin-top: -50px;
+  }
+
+}
