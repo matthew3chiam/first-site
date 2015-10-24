@@ -1,0 +1,187 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Cabin', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+#title {
+  letter-spacing: 8px;
+}
+
+h6{
+  letter-spacing: 5px;
+  font-weight: 200;
+}
+
+p,a,li {
+  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+.border-white{
+  border: 1px solid white;
+  padding: 5px 0px;
+}
+
+.comp {
+  padding: 10px 20px;
+}
+
+.dep img{
+  padding: 20px 10px;
+}
+
+a:hover {
+  color: #747171;
+  text-decoration: none;
+}
+
+footer {
+  color: white;
+}
+
+#contact {
+  background-color: #F4F4F4;
+}
+
+#contact a:hover {
+  color: #999999;
+}
+
+.image img {
+  height: 125px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#projects {
+  background-color: #F4F4F4;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.jumbotron {
+  background: url(../img/blog.jpg);
+  background-size: cover;
+  height: 750px;
+  color: white;
+  z-index: -1;
+}
+
+#top {
+  margin-top: 120px;
+  color: #A4A4A4;
+}
+
+.btn:hover, .btn-white:hover {
+  border-radius: 1px;
+  border: 1px solid white;
+	cursor: pointer;
+	transition: border 0.5s;
+  text-decoration: none;
+}
+
+#SB {
+  background-color: orange;
+  color: white;
+  padding: 10px 25px;
+  width: auto;
+  display: inline-block;
+  border-radius: 1px;
+  text-align: center;
+  font-size: inherit;
+}
+
+.btn-white{
+  padding: 5px 10px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.navbar {
+  font-size: 0.5em;
+}
+
+
+.icons img {
+  height: 40px;
+  display: inline-block;
+}
+
+.icons {
+  float: right;
+  padding: 10px 10px;
+  display: block;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 768px) {
+    h4 {
+      font-size: 1.5em;
+      float: none;
+      text-align: center;
+    }
+
+    #top {
+      margin-top: 400px;
+      color: white;
+    }
+
+    p, a, li{
+      font-size: 1.5em;
+      text-align: center;
+      margin-left: auto;
+      float: none;
+      text-decoration: none;
+    }
+
+    .jumbotron {
+      height: 650px;
+    }
+
+    .container {
+      padding: 30px 25px;
+    }
+
+    .icons img {
+      height: 50px;
+    }
+
+    .image img {
+      height: 200px;
+    }
+
+    .icons {
+      float: none;
+      text-align: center;
+    }
+
+    #SB {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      font-size:
+    }
+
+  }
