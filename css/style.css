@@ -101,7 +101,7 @@ a:hover {
   font-size: inherit;
 }
 
-.btn-white{
+.btn-white {
   padding: 5px 10px;
   border: 1px solid black;
   display: inline-block;
@@ -143,7 +143,7 @@ a:hover {
     }
 
     p, a, li{
-      font-size: 23px;
+      font-size: 18px;
       text-align: center;
       margin-left: auto;
       float: none;
@@ -155,7 +155,7 @@ a:hover {
     }
 
     .container {
-      padding: 30px 25px;
+      padding: 30px 15px;
     }
 
     .icons img {
