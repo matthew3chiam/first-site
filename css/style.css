@@ -5,7 +5,7 @@ html, body {
   font-family: 'Cabin', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5 {
   letter-spacing: 3px;
   font-weight: 300;
 }
@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: 8px;
 }
 
-h6{
+.jumbotron h6{
   letter-spacing: 5px;
   font-weight: 200;
 }
@@ -32,21 +32,13 @@ p,a,li {
   padding: 5px 0px;
 }
 
-.comp {
-  padding: 10px 20px;
-}
-
-.dep img{
-  padding: 20px 10px;
+.component {
+  padding: 30px 50px;
 }
 
 a:hover {
   color: #747171;
   text-decoration: none;
-}
-
-footer {
-  color: white;
 }
 
 #contact {
@@ -57,11 +49,14 @@ footer {
   color: #999999;
 }
 
-.image img {
+.image {
   height: 125px;
   display: block;
   margin: auto;
-  margin-top: 10px;
+}
+
+.image-padding {
+  padding: 10px 10px;
 }
 
 #projects {
@@ -95,7 +90,7 @@ footer {
   text-decoration: none;
 }
 
-#SB {
+#logo {
   background-color: orange;
   color: white;
   padding: 10px 25px;
@@ -118,7 +113,6 @@ footer {
 .navbar {
   font-size: 0.5em;
 }
-
 
 .icons img {
   height: 40px;
@@ -149,7 +143,7 @@ footer {
     }
 
     p, a, li{
-      font-size: 1.5em;
+      font-size: 23px;
       text-align: center;
       margin-left: auto;
       float: none;
@@ -168,7 +162,7 @@ footer {
       height: 50px;
     }
 
-    .image img {
+    .image {
       height: 200px;
     }
 
@@ -177,11 +171,10 @@ footer {
       text-align: center;
     }
 
-    #SB {
+    #logo {
       margin-left: auto;
       margin-right: auto;
       display: block;
-      font-size:
     }
 
   }
